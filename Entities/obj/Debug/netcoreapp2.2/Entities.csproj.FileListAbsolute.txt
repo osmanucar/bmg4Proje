@@ -1,0 +1,9 @@
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Entities\bin\Debug\netcoreapp2.2\Entities.deps.json
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Entities\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Entities\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Entities\obj\Debug\netcoreapp2.2\Entities.csprojAssemblyReference.cache
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfoInputs.cache
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Entities\obj\Debug\netcoreapp2.2\Entities.csproj.CoreCompileInputs.cache
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Entities\obj\Debug\netcoreapp2.2\Entities.dll
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Entities\obj\Debug\netcoreapp2.2\Entities.pdb

@@ -1,0 +1,12 @@
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
