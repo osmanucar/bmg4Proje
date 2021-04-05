@@ -1,0 +1,9 @@
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.deps.json
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.dll
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.pdb
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.csprojAssemblyReference.cache
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.AssemblyInfoInputs.cache
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.AssemblyInfo.cs
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.dll
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.pdb

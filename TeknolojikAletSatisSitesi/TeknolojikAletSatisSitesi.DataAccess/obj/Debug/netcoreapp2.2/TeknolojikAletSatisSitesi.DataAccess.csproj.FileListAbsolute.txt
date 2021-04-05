@@ -1,0 +1,12 @@
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\bin\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.Entities.dll
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\obj\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.DataAccess.csprojAssemblyReference.cache
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\obj\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\obj\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.DataAccess.AssemblyInfo.cs
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\bin\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.DataAccess.deps.json
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\bin\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.DataAccess.dll
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\bin\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.DataAccess.pdb
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\bin\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.Entities.pdb
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\obj\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\obj\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.DataAccess.csproj.CopyComplete
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\obj\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.DataAccess.dll
+C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.DataAccess\obj\Debug\netcoreapp2.2\TeknolojikAletSatisSitesi.DataAccess.pdb

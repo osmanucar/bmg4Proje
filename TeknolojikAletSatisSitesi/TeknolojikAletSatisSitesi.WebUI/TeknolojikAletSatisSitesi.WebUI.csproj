@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeknolojikAletSatisSitesi.Business\TeknolojikAletSatisSitesi.Business.csproj" />
+    <ProjectReference Include="..\TeknolojikAletSatisSitesi.DataAccess\TeknolojikAletSatisSitesi.DataAccess.csproj" />
+    <ProjectReference Include="..\TeknolojikAletSatisSitesi.Entities\TeknolojikAletSatisSitesi.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
