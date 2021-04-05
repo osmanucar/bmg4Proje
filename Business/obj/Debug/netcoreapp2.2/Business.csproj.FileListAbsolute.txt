@@ -1,4 +1,0 @@
-C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfoInputs.cache
-C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfo.cs
-C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Business\obj\Debug\netcoreapp2.2\Business.csproj.CoreCompileInputs.cache
-C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Business\obj\Debug\netcoreapp2.2\Business.csprojAssemblyReference.cache
