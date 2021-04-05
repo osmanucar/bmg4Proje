@@ -1,4 +1,0 @@
-C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp2.2\DataAccess.csprojAssemblyReference.cache
-C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp2.2\DataAccess.AssemblyInfoInputs.cache
-C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp2.2\DataAccess.AssemblyInfo.cs
-C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\Dataaccess\obj\Debug\netcoreapp2.2\DataAccess.csproj.CoreCompileInputs.cache
