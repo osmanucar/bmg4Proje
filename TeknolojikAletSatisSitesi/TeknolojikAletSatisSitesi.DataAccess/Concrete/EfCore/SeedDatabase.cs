@@ -7,7 +7,7 @@ using TeknolojikAletSatisSitesi.Entities;
 
 namespace TeknolojikAletSatisSitesi.DataAccess.Concrete.EfCore
 {
-    public static class SeedDatabase
+    public static class SeedDatebase
     {
         public static void Seed()
         {
@@ -29,7 +29,8 @@ namespace TeknolojikAletSatisSitesi.DataAccess.Concrete.EfCore
             }
         }
 
-        private static Category[] Categories =     {
+        private static Category[] Categories =
+        {
             new Category() { Name="Telefon"},
             new Category() { Name="Bilgisayar"}
         };

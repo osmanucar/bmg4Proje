@@ -36,7 +36,7 @@ namespace TeknolojikAletSatisSitesi.WebUI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                SeedDatabase.Seed();
+                SeedDatebase.Seed();
             }
             app.UseStaticFiles();
             app.CustomStaticFiles();

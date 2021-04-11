@@ -8,7 +8,8 @@ using TeknolojikAletSatisSitesi.Entities;
 namespace TeknolojikAletSatisSitesi.DataAccess.Abstract
 {
     public interface IProductDal : IRepository<Product>
-    { 
+    {
+
         IEnumerable<Product> GetPopularProducts();
     }
 }

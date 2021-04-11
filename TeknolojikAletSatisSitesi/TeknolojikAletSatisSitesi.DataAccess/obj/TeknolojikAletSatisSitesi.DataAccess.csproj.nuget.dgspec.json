@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.DataAccess\\TeknolojikAletSatisSitesi.DataAccess.csproj": {}
+    "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.DataAccess\\TeknolojikAletSatisSitesi.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.DataAccess\\TeknolojikAletSatisSitesi.DataAccess.csproj": {
+    "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.DataAccess\\TeknolojikAletSatisSitesi.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.DataAccess\\TeknolojikAletSatisSitesi.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.DataAccess\\TeknolojikAletSatisSitesi.DataAccess.csproj",
         "projectName": "TeknolojikAletSatisSitesi.DataAccess",
-        "projectPath": "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.DataAccess\\TeknolojikAletSatisSitesi.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Osman Uçar\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.DataAccess\\TeknolojikAletSatisSitesi.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\VolkanKNC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Osman Uçar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VolkanKNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj": {
-                "projectPath": "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj"
+              "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj": {
+                "projectPath": "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj"
               }
             }
           }
@@ -81,20 +81,20 @@
         }
       }
     },
-    "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj": {
+    "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj",
         "projectName": "TeknolojikAletSatisSitesi.Entities",
-        "projectPath": "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj",
-        "packagesPath": "C:\\Users\\Osman Uçar\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\obj\\",
+        "projectPath": "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj",
+        "packagesPath": "C:\\Users\\VolkanKNC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Osman Uçar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VolkanKNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

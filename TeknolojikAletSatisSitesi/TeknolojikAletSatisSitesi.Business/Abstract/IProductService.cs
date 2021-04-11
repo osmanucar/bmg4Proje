@@ -9,7 +9,6 @@ namespace TeknolojikAletSatisSitesi.Business.Abstract
     {
         Product GetById(int id);
         List<Product> GetAll(); //Tüm productları çeker.
-
         List<Product> GetPopularProducts();
         void Create(Product entity);
         void Update(Product entity);

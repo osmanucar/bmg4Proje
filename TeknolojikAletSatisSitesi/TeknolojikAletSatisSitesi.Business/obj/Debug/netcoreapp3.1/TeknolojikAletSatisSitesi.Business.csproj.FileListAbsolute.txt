@@ -12,17 +12,17 @@ C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisS
 C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.csproj.CopyComplete
 C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.dll
 C:\Users\Osman Uçar\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.pdb
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.deps.json
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.dll
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.pdb
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.DataAccess.dll
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.dll
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.DataAccess.pdb
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.pdb
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.csprojAssemblyReference.cache
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.AssemblyInfoInputs.cache
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.AssemblyInfo.cs
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.csproj.CoreCompileInputs.cache
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.csproj.CopyComplete
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.dll
-D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.pdb
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.deps.json
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.dll
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.pdb
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.DataAccess.dll
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.dll
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.DataAccess.pdb
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.pdb
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.csprojAssemblyReference.cache
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.AssemblyInfoInputs.cache
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.AssemblyInfo.cs
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.csproj.CoreCompileInputs.cache
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.csproj.CopyComplete
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.dll
+C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Business\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Business.pdb
