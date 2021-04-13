@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj": {}
+    "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj": {
+    "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj",
+        "projectUniqueName": "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj",
         "projectName": "TeknolojikAletSatisSitesi.Entities",
-        "projectPath": "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj",
-        "packagesPath": "C:\\Users\\VolkanKNC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VolkanKNC\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\obj\\",
+        "projectPath": "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\TeknolojikAletSatisSitesi.Entities.csproj",
+        "packagesPath": "C:\\Users\\Osman Uçar\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\TeknolojikAletSatisSitesi\\TeknolojikAletSatisSitesi.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\VolkanKNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Osman Uçar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
