@@ -11,7 +11,6 @@ using TeknolojikAletSatisSitesi.Business.Abstract;
 using TeknolojikAletSatisSitesi.Business.Concrete;
 using TeknolojikAletSatisSitesi.DataAccess.Abstract;
 using TeknolojikAletSatisSitesi.DataAccess.Concrete.EfCore;
-using TeknolojikAletSatisSitesi.DataAccess.Concrete.Memory;
 using TeknolojikAletSatisSitesi.WebUI.Middlewares;
 
 namespace TeknolojikAletSatisSitesi.WebUI
@@ -23,7 +22,9 @@ namespace TeknolojikAletSatisSitesi.WebUI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IProductDal, EfCoreProductDal>();
+            services.AddScoped<ICategoryDal, EfCoreCategoryDal>();
             services.AddScoped<IProductService, ProductManager>();
+            services.AddScoped<ICategoryService, CategoryManager>();
 
             services.AddMvc()
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
@@ -40,7 +41,19 @@ namespace TeknolojikAletSatisSitesi.WebUI
             }
             app.UseStaticFiles();
             app.CustomStaticFiles();
-            app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "products",
+                    template: "products/{category?}",
+                    defaults: new {controller = "Shop", action = "List" }
+                    );
+
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{Id?}"
+                    );
+            });
             
         }
     }
