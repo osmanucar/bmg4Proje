@@ -10,6 +10,8 @@ namespace TeknolojikAletSatisSitesi.DataAccess.Abstract
     public interface IProductDal : IRepository<Product>
     {
 
-        IEnumerable<Product> GetPopularProducts();
+        List<Product> GetProductsByCategory(string category, int page, int pageSize);
+        Product GetProductDetails(int id);
+        int GetCountByCategory(string category);
     }
 }
