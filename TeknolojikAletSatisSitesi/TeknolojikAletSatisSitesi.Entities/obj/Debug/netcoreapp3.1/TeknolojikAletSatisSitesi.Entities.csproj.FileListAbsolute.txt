@@ -16,3 +16,11 @@ C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSit
 C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.dll
 C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.pdb
 C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.csprojAssemblyReference.cache
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.deps.json
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.dll
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\bin\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.pdb
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.AssemblyInfoInputs.cache
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.AssemblyInfo.cs
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.csproj.CoreCompileInputs.cache
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.dll
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.Entities\obj\Debug\netcoreapp3.1\TeknolojikAletSatisSitesi.Entities.pdb
