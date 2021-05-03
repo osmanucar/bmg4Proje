@@ -10,17 +10,20 @@ namespace TeknolojikAletSatisSitesi.WebUI.Models
     public class ProductModel
     {
         public int Id { get; set; }
-       // [Required]
-        //[StringLength(60, MinimumLength =10, ErrorMessage ="Ürün ismi minumum 10 karakter ve maksimum 60 karakter olmalıdır")]
 
+        [Required(ErrorMessage = "Ürün isim alanı zorunludur.")]
+        [StringLength(60, MinimumLength =2, ErrorMessage ="Ürün ismi minumum 2 karakter ve maksimum 60 karakter olmalıdır")]
         public string Name { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "ImageUrl alanı zorunludur.")]
         public string ImageUrl { get; set; }
-        [Required]
-        [StringLength(100, MinimumLength = 20, ErrorMessage = "Ürün açıklması minumum 20 karakter ve maksimum 100 karakter olmalıdır")]
+
+        [Required(ErrorMessage = "Açıklama alanı zorunludur.")]
+        [StringLength(10000, MinimumLength = 2, ErrorMessage = "Ürün açıklması minumum 2 karakter ve maksimum 10000 karakter olmalıdır")]
         public string Description { get; set; }
-        [Required(ErrorMessage ="Fiyat belirtiniz")]
-        [Range(1,10000)]
+
+        [Required(ErrorMessage = "Fiyat alanı zorunludur.")]
+        [Range(1,20000, ErrorMessage = "Fiyat 1-20000 aralığında olmalıdır")]
         public decimal? Price { get; set; }
         public List<Category> SelectedCategories { get; set; }
     }
