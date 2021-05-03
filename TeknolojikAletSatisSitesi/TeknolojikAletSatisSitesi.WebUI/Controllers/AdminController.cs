@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using TeknolojikAletSatisSitesi.Business.Abstract;
@@ -83,23 +85,40 @@ namespace TeknolojikAletSatisSitesi.WebUI.Controllers
             return View(model);
         }
         [HttpPost]
-        public IActionResult EditProduct(ProductModel model, int[] categoryIds)
+        public async Task<IActionResult> EditProduct(ProductModel model, int[] categoryIds, IFormFile file)
         {
-            var entity = _productService.GetById(model.Id);
-
-            if (entity == null)
+            if (ModelState.IsValid) 
             {
-                return NotFound();
+                var entity = _productService.GetById(model.Id);
+
+                if (entity == null)
+                {
+                    return NotFound();
+                }
+
+                entity.Name = model.Name;
+                entity.Description = model.Description;
+                entity.Price = model.Price;
+
+                if (file != null) 
+                {
+                    entity.ImageUrl = file.FileName;
+
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\img", file.FileName);
+                    using (var stream = new FileStream(path,FileMode.Create)) 
+                    {
+                        await file.CopyToAsync(stream);
+                    }
+                }
+
+                _productService.Update(entity, categoryIds);
+
+                return RedirectToAction("ProductList");
             }
 
-            entity.Name = model.Name;
-            entity.Description = model.Description;
-            entity.ImageUrl = model.ImageUrl;
-            entity.Price = model.Price;
+            ViewBag.Categories = _categoryService.GetAll();
 
-            _productService.Update(entity, categoryIds);
-
-            return RedirectToAction("ProductList");
+            return View(model);
         }
 
         [HttpPost]
@@ -125,18 +144,23 @@ namespace TeknolojikAletSatisSitesi.WebUI.Controllers
         [HttpGet]
         public IActionResult CreateCategory()
         {
-            return View();
+            return View(new CategoryModel());
         }
         [HttpPost]
         public IActionResult CreateCategory(CategoryModel model)
         {
-            var entity = new Category()
+            if (ModelState.IsValid)
             {
-                Name = model.Name
-            };
-            _categoryService.Create(entity);
+                var entity = new Category()
+                {
+                    Name = model.Name
+                };
+                _categoryService.Create(entity);
 
-            return RedirectToAction("CategoryList");
+                return RedirectToAction("CategoryList");
+            }
+            return View(model);
+
         }
         [HttpGet]
         public IActionResult EditCategory(int id)
