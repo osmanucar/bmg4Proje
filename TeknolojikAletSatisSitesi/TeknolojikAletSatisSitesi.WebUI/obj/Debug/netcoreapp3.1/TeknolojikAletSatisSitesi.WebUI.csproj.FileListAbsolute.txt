@@ -424,3 +424,6 @@ C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSit
 C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductList.cshtml.g.cs
 C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\VolkanKNC\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+D:\source\repos\TeknolojikAletSatisSitesi\TeknolojikAletSatisSitesi.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
