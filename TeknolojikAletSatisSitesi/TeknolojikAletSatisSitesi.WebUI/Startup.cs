@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
@@ -11,16 +14,66 @@ using TeknolojikAletSatisSitesi.Business.Abstract;
 using TeknolojikAletSatisSitesi.Business.Concrete;
 using TeknolojikAletSatisSitesi.DataAccess.Abstract;
 using TeknolojikAletSatisSitesi.DataAccess.Concrete.EfCore;
+using TeknolojikAletSatisSitesi.WebUI.Identity;
 using TeknolojikAletSatisSitesi.WebUI.Middlewares;
 
 namespace TeknolojikAletSatisSitesi.WebUI
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; set; }
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ApplicationIdentityDbContext>(options =>
+             options.UseSqlServer(Configuration.GetConnectionString("IdentityConnection")));
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationIdentityDbContext>()
+                .AddDefaultTokenProviders();
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                // password
+
+                options.Password.RequireDigit = true; //Parolanın içinde Sayısal değer olmalı 
+                options.Password.RequireLowercase = true; //Parolanın içinde küçük karakterde olmalı
+                options.Password.RequiredLength = 6; // Min. Parola değeri
+                options.Password.RequireNonAlphanumeric = true; //Parolanın içinde alfabetik karakter olmasa da olur
+                options.Password.RequireUppercase = true; //Parolanın içinde mutlaka büyük karakter olmalı
+
+                options.Lockout.MaxFailedAccessAttempts = 5; // parola kaç sefer yanlış girilebilsin
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5); // yanlış girilen parolalardan sonra bekleme süresi (5 Dakika)
+                options.Lockout.AllowedForNewUsers = true; //kitleme işlemi yeni kullanıcı içinde geçerli olacak
+
+                // options.User.AllowedUserNameCharacters = "";
+                options.User.RequireUniqueEmail = true; // Aynı 2 Mail adresinin kaydına izin vermez
+
+                options.SignIn.RequireConfirmedEmail = false; // hesap oluşturulduktan mail adresinden onaylası gerekir
+                options.SignIn.RequireConfirmedPhoneNumber = false; // telefon NO üzeriinden onaya sunmak için TRUE dememiz yeterli
+            });
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/account/login";
+                options.LogoutPath = "/account/logout";
+                options.AccessDeniedPath = "/account/accessdenied";
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+                options.SlidingExpiration = true;
+                options.Cookie = new CookieBuilder
+                {
+                    HttpOnly = true,
+                    Name = ".ShopApp.Security.Cookie"
+                };
+
+            });
+
             services.AddScoped<IProductDal, EfCoreProductDal>();
             services.AddScoped<ICategoryDal, EfCoreCategoryDal>();
             services.AddScoped<IProductService, ProductManager>();
@@ -42,6 +95,7 @@ namespace TeknolojikAletSatisSitesi.WebUI
             }
             app.UseStaticFiles();
             app.CustomStaticFiles();
+            app.UseAuthentication();
             app.UseMvc(routes =>
              {
                 /* routes.MapRoute(
