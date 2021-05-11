@@ -9,6 +9,7 @@ using TeknolojikAletSatisSitesi.WebUI.Models;
 
 namespace TeknolojikAletSatisSitesi.WebUI.Controllers
 {
+    [AutoValidateAntiforgeryToken]
     public class AccountController : Controller
     {
         private UserManager<ApplicationUser> _userManager;
@@ -46,12 +47,52 @@ namespace TeknolojikAletSatisSitesi.WebUI.Controllers
                 // generate token
                 // send email
 
-                return RedirectToAction("account", "login");
+                return RedirectToAction("Login", "Account");
             }
 
 
             ModelState.AddModelError("", "Bilinmeyen hata oluştu lütfen tekrar deneyiniz.");
             return View(model);
+        }
+
+
+        //////
+        public IActionResult Login()
+        {
+            return View(new LoginModel());
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginModel model, string returnUrl = null)
+        {
+            returnUrl = returnUrl ?? "~/";
+
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+            var user = await _userManager.FindByNameAsync(model.Username);
+
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Bu kullanıcı ile daha önce hesap oluşturulmamış.");
+                return View(model);
+            }
+
+            var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, true, false);
+
+            if (result.Succeeded)
+            {
+                return Redirect(returnUrl);
+            }
+            ModelState.AddModelError("", "Kullanıcı adı ve ya parola yanlış");
+            return View();          
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return Redirect("~/");
         }
     }
 }
