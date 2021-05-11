@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ using TeknolojikAletSatisSitesi.WebUI.Models;
 
 namespace TeknolojikAletSatisSitesi.WebUI.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductService _productService;
