@@ -69,15 +69,19 @@ namespace TeknolojikAletSatisSitesi.WebUI
                 options.Cookie = new CookieBuilder
                 {
                     HttpOnly = true,
-                    Name = ".ShopApp.Security.Cookie"
+                    Name = ".ShopApp.Security.Cookie",
+                    SameSite = SameSiteMode.Strict
                 };
 
             });
 
             services.AddScoped<IProductDal, EfCoreProductDal>();
             services.AddScoped<ICategoryDal, EfCoreCategoryDal>();
+            services.AddScoped<ICartDal, EfCoreCartDal>();
+
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICartService, CartManager>();
 
             services.AddMvc()
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
@@ -86,7 +90,7 @@ namespace TeknolojikAletSatisSitesi.WebUI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostEnvironment env, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -122,32 +126,8 @@ namespace TeknolojikAletSatisSitesi.WebUI
                  );
 
              });
-            // bunuda kullanabiliriz aynı görevi görüyor
-           /* app.UseRouting();
-            app.UseCors();
 
-            app.UseAuthentication();
-            app.UseAuthorization();
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-                endpoints.MapControllerRoute(
-                name: "adminProducts",
-                pattern: "admin/products",
-                defaults: new { controller = "Admin", action = "ProductList" });
-
-                endpoints.MapControllerRoute(
-                name: "adminProducts",
-                pattern: "admin/products/{id?}",
-                defaults: new { controller = "Admin", action = "EditProduct" });
-
-                endpoints.MapControllerRoute(
-                name: "products",
-                pattern: "products/{category?}",
-                defaults: new { controller = "Shop", action = "List" });
-
-                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
-            });*/
+            SeedIdentity.Seed(userManager, roleManager, Configuration).Wait();
 
         }
     }
