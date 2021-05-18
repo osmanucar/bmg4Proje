@@ -12,7 +12,7 @@ using TeknolojikAletSatisSitesi.WebUI.Models;
 
 namespace TeknolojikAletSatisSitesi.WebUI.Controllers
 {
-    [Authorize]
+    [Authorize (Roles ="admin")]
     public class AdminController : Controller
     {
         private IProductService _productService;
