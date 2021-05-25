@@ -1,15 +1,15 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using ShopApp.WebUI.Models;
 using TeknolojikAletSatisSitesi.Business.Abstract;
 using TeknolojikAletSatisSitesi.WebUI.Identity;
+using TeknolojikAletSatisSitesi.WebUI.Models;
 
-namespace ShopApp.WebUI.Controllers
+namespace TeknolojikAletSatisSitesi.WebUI.Controllers
 {
     [Authorize]
     public class CartController : Controller
@@ -41,9 +41,40 @@ namespace ShopApp.WebUI.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddToCart()
+        public IActionResult AddToCart(int productId, int quantity)
         {
-            return View();
+            _cartService.AddToCart(_userManager.GetUserId(User), productId, quantity);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult DeleteFromCart(int productId)
+        {
+            _cartService.DeleteFromCart(_userManager.GetUserId(User), productId);
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Checkout()
+        {
+            var cart = _cartService.GetCartByUserId(_userManager.GetUserId(User));
+
+            var orderModel = new OrderModel();
+
+            orderModel.CartModel = new CartModel()
+            {
+                CartId = cart.Id,
+                CartItems = cart.CartItems.Select(i => new CartItemModel()
+                {
+                    CartItemId = i.Id,
+                    ProductId = i.Product.Id,
+                    Name = i.Product.Name,
+                    Price = (decimal)i.Product.Price,
+                    ImageUrl = i.Product.ImageUrl,
+                    Quantity = i.Quantity
+                }).ToList()
+            };
+
+            return View(orderModel);
         }
     }
 }

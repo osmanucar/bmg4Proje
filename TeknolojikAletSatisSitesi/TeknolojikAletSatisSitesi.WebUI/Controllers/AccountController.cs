@@ -47,11 +47,6 @@ namespace TeknolojikAletSatisSitesi.WebUI.Controllers
 
             if (result.Succeeded)
             {
-                // generate token
-                // send email
-
-                /*---------- Osman bu yorum satırına sen baktıktan sonra sileriz
-                _cartService.InitializeCart(user.Id); confirmEmail fonksiyonuna yazıyor bu satırı bizde olmadığı için buraya yazmamız gerekiyor!!!!!!!*/
                 _cartService.InitializeCart(user.Id);
 
                 return RedirectToAction("Login", "Account");
