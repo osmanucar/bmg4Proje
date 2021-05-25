@@ -102,12 +102,7 @@ namespace TeknolojikAletSatisSitesi.WebUI
             app.UseAuthentication();
             app.UseMvc(routes =>
              {
-                /* routes.MapRoute(
-                    name: "adminProducts",
-                    template: "admin/products",
-                    defaults: new { controller = "Admin", action = "Index" }
-                 );*/
-
+                
                 routes.MapRoute(
                      name: "adminProducts",
                      template: "admin/products/{id?}",
@@ -115,10 +110,16 @@ namespace TeknolojikAletSatisSitesi.WebUI
                  );
 
                  routes.MapRoute(
-                  name: "cart",
-                  template: "cart",
-                  defaults: new { controller = "Cart", action = "Index" }
-                );
+                   name: "cart",
+                   template: "cart",
+                   defaults: new { controller = "Cart", action = "Index" }
+                 );
+
+                 routes.MapRoute(
+                   name: "checkout",
+                   template: "checkout",
+                   defaults: new { controller = "Cart", action = "Checkout" }
+                 );
 
                  routes.MapRoute(
                    name: "products",
