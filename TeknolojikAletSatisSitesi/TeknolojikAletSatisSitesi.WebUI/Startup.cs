@@ -78,10 +78,13 @@ namespace TeknolojikAletSatisSitesi.WebUI
             services.AddScoped<IProductDal, EfCoreProductDal>();
             services.AddScoped<ICategoryDal, EfCoreCategoryDal>();
             services.AddScoped<ICartDal, EfCoreCartDal>();
+            services.AddScoped<IOrderDal, EfCoreOrderDal>();
 
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICartService, CartManager>();
+            services.AddScoped<IOrderService, OrderManager>();
+
 
             services.AddMvc()
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
@@ -102,7 +105,12 @@ namespace TeknolojikAletSatisSitesi.WebUI
             app.UseAuthentication();
             app.UseMvc(routes =>
              {
-                
+                /* routes.MapRoute(
+                    name: "adminProducts",
+                    template: "admin/products",
+                    defaults: new { controller = "Admin", action = "Index" }
+                 );*/
+
                 routes.MapRoute(
                      name: "adminProducts",
                      template: "admin/products/{id?}",
@@ -113,6 +121,12 @@ namespace TeknolojikAletSatisSitesi.WebUI
                    name: "cart",
                    template: "cart",
                    defaults: new { controller = "Cart", action = "Index" }
+                 );
+
+                 routes.MapRoute(
+                     name: "orders",
+                     template: "orders",
+                     defaults: new { controller = "Cart", action = "GetOrders" }
                  );
 
                  routes.MapRoute(
