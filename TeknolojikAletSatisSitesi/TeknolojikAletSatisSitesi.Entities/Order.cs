@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TeknolojikAletSatisSitesi.Entities;
 
-namespace TeknolojikAletSatisSitesi.Entities
+namespace ShopApp.Entities
 {
     public class Order
     {
-        // stripe
-        // IYZICO
+        public Order()
+        {
+            OrderItems = new List<OrderItem>();
+        }
 
         public int Id { get; set; }
 
@@ -48,3 +51,4 @@ namespace TeknolojikAletSatisSitesi.Entities
         Eft = 1
     }
 }
+
