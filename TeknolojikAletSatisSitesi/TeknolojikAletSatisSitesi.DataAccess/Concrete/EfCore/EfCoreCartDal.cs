@@ -37,7 +37,16 @@ namespace TeknolojikAletSatisSitesi.DataAccess.Concrete.EfCore
             {
                 var cmd = @"delete from CartItem where CartId=@p0 And ProductId=@p1";
                 context.Database.ExecuteSqlRaw(cmd, cartId, productId);
-                //ExecuteSqlCommand
+                //context.Database.ExecuteSqlCommand(cmd, cartId, productId);
+            }
+        }
+
+        public void ClearCart(string cartId)
+        {
+            using (var context = new ShopContext())
+            {
+                var cmd = @"delete from CartItem where CartId=@p0";
+                context.Database.ExecuteSqlRaw(cmd, cartId);
             }
         }
     }
